@@ -7,10 +7,10 @@ spec:
     spec:
       containers:
       - name: siege
-        image: sudermanjr/siege:4.0.4
+        image: sumukhballal/siege:4.0.4
         env:
         - name: URL
-          value: "example.com"
+          value: "http://172.20.23.20:80"
         - name: TIMEOUT
           value: "60"
         - name: PARSER
